@@ -1,0 +1,21 @@
+Set up with a table named students having columns id, name, age, and grade. Students should use the mysql-connector library for these exercises.
+
+1. Create Operation: Write a Python script to insert at least three new students 
+into the students table.
+
+
+2. Read Operation: Create a function that fetches and prints the details of all students 
+from the students table.
+
+
+3. Update Operation: Write a script that updates the age of a specific student.
+ Prompt the user to enter the student's ID and the new age.
+
+
+4. Delete Operation: Implement a function that deletes a student based on their ID. 
+Prompt the user to enter the ID of the student to be deleted.
+
+5. Advanced Read Operation: Create a function that fetches and prints the details of students who have a grade above a certain threshold. Allow the user to input the threshold grade.
+
+
+6. Bulk Insert Operation: Write a script that inserts multiple students in a single query using the execute_many method.
