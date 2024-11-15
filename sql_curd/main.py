@@ -1,8 +1,22 @@
-import database_conntion
-from insert_data import insert_data
-import read_table
-from create_tables import create_table 
-#   TO CREATE TABLE
-create_table("Employees", "id INT PRIMARY KEY", "name TEXT", "salary REAL")
+from import_file import*
 
-insert_data()
+
+# CREATE TABLE
+# create_table("student", "id INT PRIMARY KEY", "name TEXT", "age INT","grade VARCHAR(5)","department VARCHAR(50)","email VARCHAR(100)")
+
+
+# DATA UPDATE
+# update_data()
+
+# READ ANS SELECT 
+# show_table()
+# full_table()
+# userquere()
+
+# DATA INSERT
+# insert_data()
+
+# DELETE 
+# delete_row()
+# delete_full_table_data()
+# delete_table()

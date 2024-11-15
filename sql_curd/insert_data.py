@@ -1,17 +1,18 @@
 import database_conntion as sql
-
+import csv
 
 
 
 #  Take  input data
 
 def main():
+    
     input_data=[]
-    while(True):
-        data=input("Enter detiles(sep',') or exit to stop: ")
-        if data.lower()=="exit":
-            break
-        input_data.append(data.split(","))
+    files=input("Enter File path: ")
+    with open(files, "r") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            input_data.append(tuple(row))
     return input_data
 
 
