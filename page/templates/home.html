@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1 class="title ">LIST IT  x  DO IT</h1>
+    <div class="input-group">
+        <input type="text" placeholder="Add To List">
+        <button>Save</button>
+    </div>
+
+    <ul class="list">
+        <li class="list-item">
+            <span>Membuat Api</span>
+            <div class="actions">
+                <button class="delete">🗑</button>
+                <button class="edit">✏️</button>
+                <button class="check">✅</button>
+            </div>
+        </li>
+      </ul>
+</div>
+{% endblock%}
+
+
